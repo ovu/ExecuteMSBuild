@@ -3,16 +3,17 @@ ExecuteMSBuild
 
 It is a wrapper to execute MSBuild in Powershell.
 Example of usage:
-	$properties = @{}
-	$properties = @{
-		VisualStudioVersion = "12.0"
-		Configuration = "Debug"
-		TargetPlatform = "AnyCPU"
-		OutDir = "C:\output\"
-	}
-	
-	$projectFile = "TestProject\HelloWorld\HelloWorld.csproj"
-	ExecuteMSBuild $projectFile $properties
+
+    $properties = @{}
+    $properties = @{
+    VisualStudioVersion = "12.0"
+    Configuration = "Debug"
+    TargetPlatform = "AnyCPU"
+    OutDir = "C:\output\"
+    }
+  
+    $projectFile = "TestProject\HelloWorld\HelloWorld.csproj"
+    ExecuteMSBuild $projectFile $properties
 
 Running the tests
 -----------------
