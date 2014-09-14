@@ -10,8 +10,8 @@ Example of usage:
 		TargetPlatform = "AnyCPU"
 		OutDir = "C:\output\"
 	}
-
-        $projectFile = "TestProject\HelloWorld\HelloWorld.csproj"
+	
+	$projectFile = "TestProject\HelloWorld\HelloWorld.csproj"
 	ExecuteMSBuild $projectFile $properties
 
 Running the tests
